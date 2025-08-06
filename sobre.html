@@ -1,17 +1,43 @@
-<!-- SOBRE.html -->
-<!-- Salve este conteúdo como sobre.html -->
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>ABL - Sobre</title>
+  <title>Sobre</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    :root {
+      --dourado: #c9a247;
+      --dourado-escuro: #b48b36;
+      --dourado-claro: #f5e4b8;
+      --cinza-claro: #f8f9fa;
+    }
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: var(--cinza-claro);
+    }
+    .navbar {
+      background-color: var(--dourado-claro);
+    }
+    .navbar-brand, .nav-link {
+      color: var(--dourado-escuro) !important;
+      font-weight: 500;
+    }
+    .navbar-brand:hover, .nav-link:hover {
+      color: var(--dourado) !important;
+    }
+    footer {
+      background-color: var(--dourado-claro);
+      color: var(--dourado-escuro);
+      padding: 20px 0;
+      text-align: center;
+    }
+  </style>
 </head>
 <body>
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <nav class="navbar navbar-expand-lg">
     <div class="container">
-      <a class="navbar-brand" href="index.html">Dra. Dra. Angela Beatriz de Lima Zaranza</a>
+      <a class="navbar-brand" href="index.html">Dra. Angela Beatriz de Lima Zaranza</a>
       <div class="collapse navbar-collapse">
         <ul class="navbar-nav ms-auto">
           <li class="nav-item"><a class="nav-link" href="index.html">INÍCIO</a></li>
@@ -21,20 +47,21 @@
       </div>
     </div>
   </nav>
-
   <div class="container py-5">
-    <h2 class="mb-4">Sobre Mim</h2>
-    <p>
-      Sou a Dra. Dra. Angela Beatriz de Lima Zaranza, advogada especializada em Direito do Trabalho desde 2017.
+    <h2 class="mb-4 text-center">Sobre Mim</h2>
+    <p class="lead text-center">
+      Sou a Dra. Angela Beatriz de Lima Zaranza, advogada especializada em Direito do Trabalho desde 2017.
       Atuo de forma ética e comprometida na defesa dos direitos dos trabalhadores, buscando sempre a melhor solução para cada caso.
     </p>
-    <p>
-      Possuo formação pela Uninorte e diversos cursos de atualização. Atendo tanto empregados quanto empregadores, com foco em resultados e orientação jurídica clara e objetiva.
+    <p class="text-center">
+      Possuo formação pela Universidade Federal e diversos cursos de atualização. Atendo tanto empregados quanto empregadores,
+      com foco em resultados e orientação jurídica clara e objetiva.
     </p>
   </div>
-
-  <footer class="bg-dark text-white text-center py-3">
-    <p>&copy; 2025 Dra. Angela Beatriz de Lima Zaranza - OAB/AM 18621</p>
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Dra. Angela Beatriz de Lima Zaranza - OAB/AM 18621</p>
+    </div>
   </footer>
 </body>
 </html>
