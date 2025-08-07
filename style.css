@@ -66,6 +66,17 @@ body {
   border-color: var(--dourado);
 }
 
+/* Novo estilo para o botão de WhatsApp */
+.btn-success {
+  background-color: #25D366; /* Cor do WhatsApp */
+  border-color: #128C7E;
+}
+
+.btn-success:hover {
+  background-color: #128C7E;
+  border-color: #25D366;
+}
+
 footer {
   background-color: var(--dourado-claro);
   color: var(--dourado-escuro);
